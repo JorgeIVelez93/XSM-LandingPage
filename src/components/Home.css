@@ -312,3 +312,155 @@ body {
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+
+@media (max-width: 428px) {
+  .header {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    width: 428px;
+    height: 100px;
+    text-align: center;
+    line-height: 1px;
+    text-decoration: underline;
+    text-decoration-color: #228b22;
+    text-decoration-skip-ink: auto;
+    margin-top: 30px;
+  }
+  .header h1 {
+    font-size: 48px;
+  }
+  .header h3 {
+    font-size: 8px;
+  }
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 321px;
+    width: 428px;
+    filter: grayscale(0%);
+  }
+  .section1 > p {
+    font-size: 16px;
+    width: 214px;
+    margin: 10px;
+    text-decoration: underline;
+    text-decoration-color: #228b22;
+  }
+  .section1 img {
+    width: 190px;
+    height: 190px;
+  }
+  .XavierImage {
+    width: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .XavierImage p {
+    width: 50%;
+    font-size: 9px;
+    text-decoration: underline;
+    text-decoration-color: #228b22;
+  }
+  .section4 {
+    width: 428px;
+  }
+  .section4 p {
+    font-size: 16px;
+    width: 314px;
+    line-height: 25px;
+  }
+  .section2 {
+    width: 428px;
+    height: 900px;
+    filter: grayscale(0%);
+  }
+  .section2div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 428px;
+  }
+  .section2 h2 {
+    font-size: 32px;
+    text-decoration: underline;
+    text-decoration-color: #228b22;
+  }
+  .section2div p {
+    font-size: 16px;
+    width: 314px;
+    text-align: center;
+  }
+  .section2 img {
+    width: 350px;
+    height: 200px;
+  }
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 428px;
+    height: 1200px;
+    filter: grayscale(0%);
+  }
+  .section3divs {
+    width: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .section3divs h3 {
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-color: #228b22;
+  }
+  .section3divs p {
+    width: 314px;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+  }
+  .submitForm {
+    width: 428px;
+    height: 450px;
+    filter: grayscale(0%);
+  }
+  .contact {
+    width: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact input {
+    border-bottom: 3px solid #228b22;
+  }
+  .message {
+    width: 350px;
+  }
+  footer {
+    height: 150px;
+    line-height: 20px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  footer h2 {
+    font-size: 20px;
+  }
+  footer h3 {
+    font-size: 16px;
+  }
+  footer li {
+    font-size: 14px;
+  }
+}

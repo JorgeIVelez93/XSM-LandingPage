@@ -6,17 +6,6 @@ import irma from "../images/hurricane.jpg";
 const Resources = () => {
   return (
     <div className="resources">
-      <nav className="navbar">
-        <Link className="navLink" to="/">
-          Home
-        </Link>
-        <Link className="navLink" to="/resources">
-          FEMA PA
-        </Link>
-        <Link className="navLink" to="/aboutUs">
-          About XSM
-        </Link>
-      </nav>
       <div className="resourcesSection1">
         <div>
           <h1>What is FEMA Public Assistance</h1>

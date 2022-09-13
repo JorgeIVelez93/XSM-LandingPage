@@ -13,11 +13,19 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 16px;
   text-decoration: none;
   width: 100px;
 }
 .navLink:hover {
   background: #ddd;
   color: black;
+}
+
+@media (max-width: 428px) {
+  .navbar {
+    height: 30px;
+
+    width: 425px;
+  }
 }

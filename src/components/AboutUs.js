@@ -7,14 +7,6 @@ import about from "./AboutUs.css";
 const AboutUs = () => {
   return (
     <div>
-      <nav className="navbar">
-        <Link className="navLink" to="/">
-          Home
-        </Link>
-        <Link className="navLink" to="">
-          FEMA PA
-        </Link>
-      </nav>
       <div className="aboutUs">
         <section className="aboutUsSection1">
           <h1>Our Purpose</h1>

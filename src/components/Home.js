@@ -42,17 +42,6 @@ const Home = () => {
 
   return (
     <div className="home">
-      <nav className="navbar">
-        <Link className="navLink" to="/">
-          Home
-        </Link>
-        <Link className="navLink" to="/resources">
-          FEMA PA
-        </Link>
-        <Link className="navLink" to="/aboutUs">
-          About XSM
-        </Link>
-      </nav>
       <header className="header">
         {" "}
         <h1 className="hvr-float"> XSM Consulting</h1>
